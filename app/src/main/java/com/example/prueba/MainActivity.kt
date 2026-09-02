@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.prueba.ui.theme.PruebaTheme
-
+import com.example.prueba.ui.onboarding.OnboardingScreen
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,9 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             PruebaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    OnboardingScreen(
+                        modifier = Modifier.padding(innerPadding),
                     )
                 }
             }

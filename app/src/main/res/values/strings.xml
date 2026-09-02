@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Prueba</string>
+    <string name="onboarding_title">Discover Your Dream Job here</string>
+    <string name="onboarding_subtitle">Explore all the existing job roles based on your interest and study major</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
+
