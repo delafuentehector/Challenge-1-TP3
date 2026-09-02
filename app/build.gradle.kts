@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.org.jsoup.nodes.Entities
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
