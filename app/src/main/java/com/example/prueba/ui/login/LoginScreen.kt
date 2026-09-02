@@ -65,7 +65,8 @@ fun LoginScreen(
             modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(12.dp),
             colors = OutlinedTextFieldDefaults.colors(
-                focusedContainerColor = Color(0xFFEEF0FB)
+                focusedContainerColor = Color(0xFFEEF0FB),
+                unfocusedContainerColor = Color(0xFFEEF0FB),
             )
         )
 
